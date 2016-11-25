@@ -36,24 +36,21 @@
 
 h1 {
     position: relative;
-    color: purple;
+    color: white;
     font-family: Tahoma;
     font-size: 45px;
     letter-spacing: 2px;
-    left: 800px;
-    top: 280px;
-    text-shadow:
-            -2px -2px 0 white,
-            2px -2px 0 white,
-            -2px 2px 0 white,
-            2px 2px 0 white;
+    left: 780px;
+    top: 275px;
+    width:1105px;
+    background: purple;
 }
 
 #sidebarnav {
     position: absolute;
     top: 500px;
     left: 10px;
-    width: 400px;
+    width: 370px;
     height: 500px;
     background: linear-gradient(135deg,dimgrey, lightgrey);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -61,90 +58,383 @@ h1 {
 
 #sidebutton1{
     position: absolute;
-    width: 20px;
-    height: 50px;
+    width: 15px;
+    height: 40px;
     top: 520px;
     left: 20px;
     background: linear-gradient(to bottom right,seagreen,lightseagreen);
-    border-style: solid;
-    border-width: 0.5px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.6);
 }
 
 #sidebutton2{
     position: absolute;
-    width: 20px;
-    height: 50px;
+    width: 15px;
+    height: 40px;
     top: 590px;
     left: 20px;
-    background: linear-gradient(to bottom right,darkblue,blue);
-    border-style: solid;
-    border-width: 0.5px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background: linear-gradient(to bottom right, royalblue, steelblue);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.6);
 }
 
 #sidebutton3{
     position: absolute;
-    width: 20px;
-    height: 50px;
+    width: 15px;
+    height: 40px;
     top: 660px;
     left: 20px;
     background: linear-gradient(to bottom right,darkslategrey,lightslategrey);
-    border-style: solid;
-    border-width: 0.5px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.6);
 }
 
 #sidebutton4{
     position: absolute;
-    width: 20px;
-    height: 50px;
+    width: 15px;
+    height: 40px;
     top: 730px;
     left: 20px;
-    background: linear-gradient(to bottom right,darkorange,orange);
-    border-style: solid;
-    border-width: 0.5px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background: linear-gradient(to bottom right,goldenrod,gold);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.6);
 }
 
 #sidebutton5{
     position: absolute;
-    width: 20px;
-    height: 50px;
+    width: 15px;
+    height: 40px;
     top: 800px;
     left: 20px;
     background: linear-gradient(to bottom right,purple,mediumpurple);
-    border-style: solid;
-    border-width: 0.5px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.6);
 }
 
 #sidebutton6{
     position: absolute;
-    width: 20px;
-    height: 50px;
+    width: 15px;
+    height: 40px;
     top: 870px;
     left: 20px;
     background: linear-gradient(to bottom right,green,limegreen);
-    border-style: solid;
-    border-width: 0.5px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.6);
 }
 
 h2{
-    top: 300px;
-    left: 50px;
+    top: 298px;
+    left: 40px;
     position: relative;
     color: purple;
     font-family: Tahoma;
-    margin-bottom: 41px;
+    margin-bottom: 46px;
+    font-size: 20px;
+    width: 280px;
 }
 
-a:link    {
-    color: purple; background-color:transparent; text-decoration:none;}
-a:visited {
-    color: purple; background-color:transparent; text-decoration:none;}
-a:hover   {
-    color: purple; background-color:transparent; text-decoration:none; text-shadow: 0px 0px 5px white;}
-a:active  {
-    color: purple; background-color:transparent; text-decoration:none;}
+h2:hover {
+    text-shadow: 0 0 5px white;
+}
+a:active{
+    text-decoration: none; color: purple;
+}
+a:link{
+    text-decoration: none; color: purple;
+}
+a:visited{
+    text-decoration: none; color: purple;
+}
+
+#footer{
+    position: absolute;
+    top: 1200px;
+    left: 10px;
+    width: 1883px;
+    height: 90px;
+    background: linear-gradient(135deg,dimgrey, lightgrey);
+    margin-bottom: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#facebook{
+    position: absolute;
+    top:1230px;
+    left: 886px;
+    width:30px;
+    height:30px;
+}
+
+#twitter{
+    position: absolute;
+    top:1230px;
+    left: 926px;
+    width:30px;
+    height:30px;
+}
+
+#instagram{
+    position: absolute;
+    top:1230px;
+    left: 966px;
+    width:30px;
+    height:30px;
+}
+
+#instagram:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.6);
+}
+
+#facebook:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.6);
+}
+
+#twitter:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.6);
+}
+
+#tab1{
+    position: absolute;
+    top: 550px;
+    left: 600px;
+    width: 300px;
+    height: 200px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#tab1Description{
+    position:absolute;
+    top:700px;
+    font-family: Tahoma;
+    color: white;
+    font-weight: bold;
+    left:600px;
+    width: 300px;
+    font-size:17px;
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transition: all 500ms ease-in-out;
+    background:purple;
+}
+
+#tab1Heading:hover + #tab1Description{
+    visibility: visible;
+    opacity: 1;
+}
+
+#tab1Heading{
+    position:absolute;
+    top:750px;
+    font-family: Tahoma;
+    color: white;
+    font-weight: bold;
+    font-size:22px;
+    left:600px;
+    width: 300px;
+    background:white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#tab2{
+    position: absolute;
+    top: 550px;
+    left: 920px;
+    width: 300px;
+    height: 200px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#tab2Description{
+    position:absolute;
+    top:700px;
+    font-family: Tahoma;
+    color: white;
+    font-weight: bold;
+    left:920px;
+    width: 300px;
+    font-size:17px;
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transition: all 500ms ease-in-out;
+    background:purple;
+}
+
+#tab2Heading:hover + #tab2Description{
+    visibility: visible;
+    opacity: 1;
+}
+
+#tab2Heading{
+    position:absolute;
+    top:750px;
+    font-family: Tahoma;
+    color: white;
+    font-weight: bold;
+    font-size:22px;
+    left:920px;
+    width: 300px;
+    background:white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#tab3{
+    position: absolute;
+    top: 550px;
+    left: 1240px;
+    width: 300px;
+    height: 200px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#tab3Description{
+    position:absolute;
+    top:700px;
+    font-family: Tahoma;
+    color: white;
+    font-weight: bold;
+    left:1240px;
+    width: 300px;
+    font-size:17px;
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transition: all 500ms ease-in-out;
+    background:purple;
+}
+
+#tab3Heading:hover + #tab3Description{
+    visibility: visible;
+    opacity: 1;
+}
+
+#tab3Heading{
+    position:absolute;
+    top:750px;
+    font-family: Tahoma;
+    color: white;
+    font-weight: bold;
+    font-size:22px;
+    left:1240px;
+    width: 300px;
+    background:white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#tab4{
+    position: absolute;
+    top: 800px;
+    left: 600px;
+    width: 300px;
+    height: 200px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#tab4Description{
+    position:absolute;
+    top:950px;
+    font-family: Tahoma;
+    color: white;
+    font-weight: bold;
+    left:600px;
+    width: 300px;
+    font-size:17px;
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transition: all 500ms ease-in-out;
+    background:purple;
+}
+
+#tab4Heading:hover + #tab4Description{
+    visibility: visible;
+    opacity: 1;
+}
+
+#tab4Heading{
+    position:absolute;
+    top:1000px;
+    font-family: Tahoma;
+    color: white;
+    font-weight: bold;
+    font-size:22px;
+    left:600px;
+    width: 300px;
+    background:white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#tab5{
+    position: absolute;
+    top: 800px;
+    left: 920px;
+    width: 300px;
+    height: 200px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#tab5Description{
+    position:absolute;
+    top:950px;
+    font-family: Tahoma;
+    color: white;
+    font-weight: bold;
+    left:920px;
+    width: 300px;
+    font-size:17px;
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transition: all 500ms ease-in-out;
+    background:purple;
+}
+
+#tab5Heading:hover + #tab5Description{
+    visibility: visible;
+    opacity: 1;
+}
+
+#tab5Heading{
+    position:absolute;
+    top:1000px;
+    font-family: Tahoma;
+    color: white;
+    font-weight: bold;
+    font-size:22px;
+    left:920px;
+    width: 300px;
+    background:white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#tab6{
+    position: absolute;
+    top: 800px;
+    left: 1240px;
+    width: 300px;
+    height: 200px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#tab6Description{
+    position:absolute;
+    top:950px;
+    font-family: Tahoma;
+    color: white;
+    font-weight: bold;
+    left:1240px;
+    width: 300px;
+    font-size:17px;
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transition: all 500ms ease-in-out;
+    background:purple;
+}
+
+#tab6Heading:hover + #tab6Description{
+    visibility: visible;
+    opacity: 1;
+}
+
+#tab6Heading{
+    position:absolute;
+    top:1000px;
+    font-family: Tahoma;
+    color: white;
+    font-weight: bold;
+    font-size:22px;
+    left:1240px;
+    width: 300px;
+    background:white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
