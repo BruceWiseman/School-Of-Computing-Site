@@ -2,9 +2,100 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Postgraduate Courses - School of Computing and Digital Media</title>
+    <title> The School of Computing and Digital Media</title>
+    <link rel="stylesheet" type = "text/css" href = "Website CSS postgraduate page.css"/>
 </head>
 <body>
+
+    <section>
+        <div id="divider"></div>
+        <div id = "divider1"></div>
+
+  <!--Alternating Image Banner (Start)-->
+
+    <script type = "text/javascript">
+        function displayNextImage(){
+            x=(x === images.length-1)? 0:x+1;
+            document.getElementById("banner").src=images[x];
+        }
+
+        function displayPreviousImage(){
+            x= (x <= 0) ? images.length - 1 : x - 1;
+            document.getElementById("banner").src = images[x];
+        }
+        function startTimer(){
+            setInterval(displayNextImage,3000);
+        }
+        var images = [], x = -1;
+        images[0] = "banner1.jpg";
+        images[1] = "banner2.jpg";
+        images[2] = "banner3.jpg";
+
+    </script>
+    <body onload = "startTimer()">
+    <img id = "banner"  src="banner1.jpg"/>
+    </body>
+
+
+    <!--Alternating Image Banner (End)-->
+
+        <img id ="logo"  src = "logo.png" alt="">
+
+        <h1>The School of Computing and Digital Media </h1>
+
+    <!--Sidebar Navigation (start)-->
+
+        <div id = "sidebarnav"></div>
+        <h2><a href="http://www.w3schools.com/html/"></a></h2>
+        <div id = "sidebutton1"></div>
+
+        <div id = "sidebutton2"></div>
+
+
+
+        <div id = "sidebutton3"></div>
+
+
+        <div id = "sidebutton4"></div>
+
+
+
+        <div id = "sidebutton5"></div>
+
+
+        <div id = "sidebutton6"></div>
+
+        <!--Sidebar Navigation(end)-->
+
+
+
+        <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html">About Us</a></li>
+            <li><a href="index.html">Undergraduate Courses</a></li>
+            <li><a href="index.html">Post- Graduate Courses</a></li>
+            <li><a href="index.html">News</a></li>
+            <li><a href="index.htm">Student Information</a></li>
+            <li><a href="index.html">Contact Us</a></li>
+            <li><a href="index.html">Research Page</a></li>
+        </ul>
+    </nav>
+<h3> Post- Graduate Courses</h3>
+    <ul style=""list-style-type:disc"></ul>
+
+    <li><a href=http://www.rgu.ac.uk/computing/study-options/part-time-learning/msc-computer-science> MSc Computer Science</a></li>
+    <li><a href=http://www.rgu.ac.uk/computing/study-options/postgraduate-taught-full-time/computing-software-technology-with-network-management> MSc Computing- Software Technology with Network Management</a></li>
+    <li><a href=http://www.rgu.ac.uk/computing/study-options/postgraduate/masters-in-data-science>MSc in Data Science</a></li>
+    <li><a href=http://www.rgu.ac.uk/computing/study-options/part-time-learning/information-and-network-security> Msc Information and Network Security</a></li>
+    <li><a href=http://www.rgu.ac.uk/computing/study-options/part-time-learning/it-for-the-oil-and-gas-industry> Msc IT for the Oil and Gas Industry</a></li>
+
+
+    </ul>
+
+
+
+    </section>
 
 </body>
 </html>
