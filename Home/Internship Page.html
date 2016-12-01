@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Internships</title>
+    <link rel="stylesheet" href="CSS/MainStyleSheet.css">
+    <link rel="stylesheet" href="CSS/InternshipStyleSheet.css">
+
+</head>
+<body>
+
+    <header>
+        <div id = "divider"></div>
+
+        <div id = "divider1"></div>
+
+        <!-- Alternating Image Banner (start) -->
+
+        <script type = "text/javascript">
+            function displayNextImage() {
+                x = (x === images.length - 1) ? 0 : x + 1;
+                document.getElementById("banner").src = images[x];
+            }
+
+            function displayPreviousImage() {
+                x = (x <= 0) ? images.length - 1 : x - 1;
+                document.getElementById("banner").src = images[x];
+            }
+
+            function startTimer() {
+                setInterval(displayNextImage, 3000);
+            }
+
+            var images = [], x = -1;
+            images[0] = "Assets/banner1.jpg";
+            images[1] = "Assets/banner2.jpg";
+            images[2] = "Assets/banner3.jpg";
+        </script>
+
+        <body onload = "startTimer()">
+        <img id="banner" src="Assets/banner1.jpg" />
+        </body>
+
+        <!-- Alternating Image Banner (End) -->
+
+        <img id="logo" src = "Assets/logo.png" alt="">
+
+        <h1>The School of Computing and Digital Media</h1>
+        </header>
+
+
+    <nav>
+            <div id ="sidebarnav"></div>
+
+            <h2><a href="About Us.html">About Us </a></h2>
+
+            <div id = "sidebutton1"></div>
+
+            <h2><a href="Undergraduate Courses.html" >Undergraduate Courses</a></h2>
+
+            <div id = "sidebutton2"></div>
+
+            <h2><a href="Postgraduate Courses.html">Postgraduate Courses</a></h2>
+
+            <div id = "sidebutton3"></div>
+
+            <h2><a href="News.html">News </a></h2>
+
+            <div id = "sidebutton4"></div>
+
+            <h2><a href="Internship%20Page.html">Internships </a></h2>
+
+            <div id = "sidebutton5"></div>
+
+            <h2><a href="Contact Us.html">Contact Us</a></h2>
+
+            <div id = "sidebutton6"></div>
+
+            <!--Sidebar Navigation (end) -->
+        </nav>
+
+    <!-- Links to internships -->
+    <section class="internships">
+            <article>
+
+                <div id="InternshipImg">
+                    <img src="Assets/internshipplaceholder.png" alt="Internship Logo">
+                </div>
+
+
+                <div id="InternshipText">
+                    <h3>Lorem Ipsum</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempor feugiat augue, eu porta enim lacinia vitae. Maecenas fringilla aliquam urna, vel ornare ex imperdiet luctus. Integer fermentum semper tincidunt. Phasellus hendrerit nisl ut dui pretium, vitae dapibus tellus rutrum. Donec elementum cursus ullamcorper. Integer varius ornare tempus. Donec elementum.</p>
+                </div>
+
+            </article>
+
+
+            <article>
+
+                <div id="InternshipImg">
+                    <img src="Assets/internshipplaceholder.png" alt="Internship Logo">
+                </div>
+
+
+                <div id="Internship Text">
+                    <h3>Lorem Ipsum</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempor feugiat augue, eu porta enim lacinia vitae. Maecenas fringilla aliquam urna, vel ornare ex imperdiet luctus. Integer fermentum semper tincidunt. Phasellus hendrerit nisl ut dui pretium, vitae dapibus tellus rutrum. Donec elementum cursus ullamcorper. Integer varius ornare tempus. Donec elementum.</p>
+                </div>
+
+            </article>
+
+
+            <article>
+
+                <div id="InternshipImg">
+                    <img src="Assets/internshipplaceholder.png" alt="Internship Logo">
+                </div>
+
+
+                <div id="InternshipText">
+                    <h3>Lorem Ipsum</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempor feugiat augue, eu porta enim lacinia vitae. Maecenas fringilla aliquam urna, vel ornare ex imperdiet luctus. Integer fermentum semper tincidunt. Phasellus hendrerit nisl ut dui pretium, vitae dapibus tellus rutrum. Donec elementum cursus ullamcorper. Integer varius ornare tempus. Donec elementum.</p>
+                </div>
+
+            </article>
+        </section>
+
+
+    <footer>
+            <!-- Footer (start) -->
+            <div id = "footer"></div>
+
+            <a href="https://www.facebook.com/robertgordonuniversity" target="_blank"><img id = facebook src = "Assets/facebook.png"></a>
+
+            <a href="https://twitter.com/RobertGordonUni" target="_blank"><img id = twitter src = "Assets/twitter.png"></a>
+
+            <a href="https://www.instagram.com/robertgordonuni/" target="_blank"><img id = instagram src = "Assets/instagram.png"></a>
+
+            <!--Footer (end) -->
+        </footer>
+
+
+</body>
+</html>
