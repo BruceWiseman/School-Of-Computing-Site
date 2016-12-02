@@ -1,0 +1,25 @@
+
+
+section {
+    padding-left: 400px;
+    background-color: chartreuse;
+    width: 900px;
+
+}
+
+article {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 20px;
+}
+
+#InternshipImg {
+    margin-right: 10px;
+
+}
+
+img {
+    width: 100px;
+    height: 100px;
+
+}
