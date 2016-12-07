@@ -4,97 +4,108 @@
     <meta charset="UTF-8">
     <title> The School of Computing and Digital Media</title>
     <link rel="stylesheet" type = "text/css" href = "CSS/MainStyleSheet.css"/>
-
+    <link rel="stylesheet" type = "text/css" href = "CSS/Undergraduate.css"/>
 </head>
 <body>
+<section>
 
-    <section>
-        <div id="divider"></div>
-        <div id = "divider1"></div>
+    <div id = "divider"></div>
 
-  <!--Alternating Image Banner (Start)-->
+    <div id = "divider1"></div>
+
+    <!-- Alternating Image Banner (start) -->
 
     <script type = "text/javascript">
-        function displayNextImage(){
-            x=(x === images.length-1)? 0:x+1;
-            document.getElementById("banner").src=images[x];
-        }
-
-        function displayPreviousImage(){
-            x= (x <= 0) ? images.length - 1 : x - 1;
+        function displayNextImage() {
+            x = (x === images.length - 1) ? 0 : x + 1;
             document.getElementById("banner").src = images[x];
         }
-        function startTimer(){
-            setInterval(displayNextImage,3000);
+
+        function displayPreviousImage() {
+            x = (x <= 0) ? images.length - 1 : x - 1;
+            document.getElementById("banner").src = images[x];
         }
+
+        function startTimer() {
+            setInterval(displayNextImage, 2000);
+        }
+
         var images = [], x = -1;
         images[0] = "Assets/banner1.jpg";
         images[1] = "Assets/banner2.jpg";
         images[2] = "Assets/banner3.jpg";
-
     </script>
+
     <body onload = "startTimer()">
-    <img id = "banner"  src="Assets/banner1.jpg"/>
+    <img id="banner" src="Assets/banner1.jpg" />
     </body>
 
+    <!-- Alternating Image Banner (End) -->
 
-    <!--Alternating Image Banner (End)-->
+    <img id="logo" src = "Assets/logo.png" alt="">
 
-        <img id ="logo" src = "Assets/logo.png" alt="">
+    <h1>The School of Computing and Digital Media</h1>
 
-        <h1>The School of Computing and Digital Media </h1>
+    <!--Sidebar Navigation (start) -->
 
-    <!--Sidebar Navigation (start)-->
+    <div id ="sidebarnav"></div>
 
-        <div id = "sidebarnav"></div>
-        <h2><a href="http://www.w3schools.com/html/"></a></h2>
-        <div id = "sidebutton1"></div>
+    <h2><a href="About Us.html">About Us </a></h2>
 
-        <div id = "sidebutton2"></div>
+    <div id = "sidebutton1"></div>
 
+    <h2><a href="Undergraduate Courses.html" >Undergraduate Courses</a></h2>
 
+    <div id = "sidebutton2"></div>
 
-        <div id = "sidebutton3"></div>
+    <h2><a href="Postgraduate Courses.html">Postgraduate Courses</a></h2>
 
+    <div id = "sidebutton3"></div>
 
-        <div id = "sidebutton4"></div>
+    <h2><a href="News.html">News </a></h2>
 
+    <div id = "sidebutton4"></div>
 
+    <h2><a href="Internship%20Page.html">Internships</a></h2>
 
-        <div id = "sidebutton5"></div>
+    <div id = "sidebutton5"></div>
 
+    <h2><a href="Contact Us.html">Contact Us</a></h2>
 
-        <div id = "sidebutton6"></div>
+    <div id = "sidebutton6"></div>
 
-        <!--Sidebar Navigation(end)-->
+    <!--Sidebar Navigation (end) -->
 
+    <!-- Footer (start)-->
 
+    <div id = "footer"></div>
 
-        <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="index.html">About Us</a></li>
-            <li><a href="index.html">Undergraduate Courses</a></li>
-            <li><a href="index.html">Post- Graduate Courses</a></li>
-            <li><a href="index.html">News</a></li>
-            <li><a href="index.htm">Student Information</a></li>
-            <li><a href="index.html">Contact Us</a></li>
-            <li><a href="index.html">Research Page</a></li>
-        </ul>
-    </nav>
-<h3> Post- Graduate Courses</h3>
-    <ul style=""list-style-type:disc"></ul>
+    <a href="https://www.facebook.com/robertgordonuniversity" target="_blank"><img id = facebook src = "Assets/facebook.png"></a>
 
-    <li><a href=http://www.rgu.ac.uk/computing/study-options/part-time-learning/msc-computer-science> MSc Computer Science</a></li>
-    <li><a href=http://www.rgu.ac.uk/computing/study-options/postgraduate-taught-full-time/computing-software-technology-with-network-management> MSc Computing- Software Technology with Network Management</a></li>
-    <li><a href=http://www.rgu.ac.uk/computing/study-options/postgraduate/masters-in-data-science>MSc in Data Science</a></li>
-    <li><a href=http://www.rgu.ac.uk/computing/study-options/part-time-learning/information-and-network-security> Msc Information and Network Security</a></li>
-    <li><a href=http://www.rgu.ac.uk/computing/study-options/part-time-learning/it-for-the-oil-and-gas-industry> Msc IT for the Oil and Gas Industry</a></li>
+    <a href="https://twitter.com/RobertGordonUni" target="_blank"><img id = twitter src = "Assets/twitter.png"></a>
 
+    <a href="https://www.instagram.com/robertgordonuni/" target="_blank"><img id = instagram src = "Assets/instagram.png"></a>
 
-    </ul>
+    <!--Footer (end) -->
 
+    <div id = "undergrad">
 
+        <h3>Postgraduate Course 1</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempor feugiat augue, eu porta enim lacinia vitae. Maecenas fringilla aliquam urna, vel ornare ex imperdiet luctus.</p>
+
+        <h3>Postgraduate Course 2</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempor feugiat augue, eu porta enim lacinia vitae. Maecenas fringilla aliquam urna, vel ornare ex imperdiet luctus.</p>
+
+        <h3>Postgraduate Course 3</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempor feugiat augue, eu porta enim lacinia vitae. Maecenas fringilla aliquam urna, vel ornare ex imperdiet luctus.</p>
+
+        <h3>Postgraduate Course 4</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempor feugiat augue, eu porta enim lacinia vitae. Maecenas fringilla aliquam urna, vel ornare ex imperdiet luctus.</p>
+
+        <h3>Postgraduate Course 5</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempor feugiat augue, eu porta enim lacinia vitae. Maecenas fringilla aliquam urna, vel ornare ex imperdiet luctus.</p>
+
+    </div>
 
     </section>
 
