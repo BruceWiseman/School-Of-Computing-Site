@@ -1,17 +1,17 @@
 #footer{
-    top:1450px;
+    top:1350px;
 }
 
 #instagram{
-    top:1480px;
+    top:1380px;
 }
 
 #facebook{
-    top:1480px;
+    top:1380px;
 }
 
 #twitter{
-    top:1480px;
+    top:1380px;
 }
 
 #contactDetails{
@@ -47,7 +47,7 @@ h3 {
     font-family: Tahoma;
     font-size: 25px;
     letter-spacing: 2px;
-    width: 500px;
+    width: 600px;
     top:-35px;
     left:10px;
     background: purple;
@@ -58,30 +58,44 @@ h3 {
 #socialMedia{
     position:absolute;
     left:425px;
-    top:800px;
+    top:850px;
+    width:820px;
+    height:250px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 #face{
     position: absolute;
-    top:100px;
-    left: 400px;
-    width:30px;
-    height:30px;
+    top:75px;
+    left: 200px;
+    width:100px;
+    height:100px;
 }
 
 #twit{
     position: absolute;
-    top:100px;
-    left: 450px;
-    width:30px;
-    height:30px;
+    top:75px;
+    left: 350px;
+    width:100px;
+    height:100px;
 }
 
 #insta{
     position: absolute;
-    top:100px;
+    top:75px;
     left: 500px;
-    width:30px;
-    height:30px;
+    width:100px;
+    height:100px;
+}
+
+#insta:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.6);
+}
+
+#face:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.6);
+}
+
+#twit:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.6);
 }
