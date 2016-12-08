@@ -51,7 +51,7 @@ h1 {
     position: absolute;
     top: 500px;
     left: 10px;
-    width: 370px;
+    width: 350px;
     height: 500px;
     background: linear-gradient(135deg,dimgrey, lightgrey);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -118,12 +118,12 @@ h1 {
 }
 
 h2{
-    top: 290px;
+    top: 298px;
     left: 40px;
     position: relative;
     color: purple;
     font-family: Tahoma;
-    margin-bottom: 45px;
+    margin-bottom: 46px;
     font-size: 20px;
     width: 280px;
 }
