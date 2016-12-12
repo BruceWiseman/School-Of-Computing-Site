@@ -198,21 +198,17 @@ h3 {
 #joinUndergrad{
     position:absolute;
     left:1225px;
-    top:510px;
+    top:560px;
 }
 
-img{
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-#h4{
+#studyUndergrad{
     position: relative;
     color: white;
     font-family: Tahoma;
-    font-size: 25px;
+    font-size: 20px;
     letter-spacing: 2px;
     width: 600px;
-    background: purple;
+    background: linear-gradient(135deg,dimgrey, lightgrey);
     text-align: center;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
